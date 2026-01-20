@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top" />
+    <style>
+      body {
+        font-family: "Segoe UI", sans-serif;
+        display: flex;
+        flex-direction: column;
+        height: 95vh;
+        margin: 0;
+        padding: 10px;
+        background-color: #f0f2f5;
+      }
+      .header {
+        text-align: center;
+        margin-bottom: 15px;
+        color: #2c3e50;
+      }
+
+      /* THE MAGIC BUTTON */
+      .sync-btn {
+        background: #27ae60;
+        color: white;
+        width: 100%;
+        padding: 15px;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        margin-bottom: 15px;
+        transition: transform 0.1s;
+      }
+      .sync-btn:hover {
+        background: #219150;
+        transform: scale(1.02);
+      }
+      .sync-btn:active {
+        transform: scale(0.98);
+      }
+
+      /* Chat Styles */
+      .chat-box {
+        flex-grow: 1;
+        overflow-y: auto;
+        background: white;
+        border-radius: 8px;
+        padding: 10px;
+        margin-bottom: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+      }
+      .message {
+        margin: 5px 0;
+        padding: 8px 12px;
+        border-radius: 15px;
+        max-width: 80%;
+        font-size: 13px;
+        line-height: 1.4;
+      }
+      .user {
+        background-color: #3498db;
+        color: white;
+        align-self: flex-end;
+        margin-left: auto;
+        border-bottom-right-radius: 2px;
+      }
+      .bot {
+        background-color: #e4e6eb;
+        color: black;
+        align-self: flex-start;
+        margin-right: auto;
+        border-bottom-left-radius: 2px;
+      }
+      .input-area {
+        display: flex;
+        gap: 5px;
+      }
+      input {
+        flex-grow: 1;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 20px;
+        outline: none;
+      }
+      button.send-btn {
+        background: #3498db;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h3>🧠 Mission Brain</h3>
+    </div>
+
+    <button class="sync-btn" onclick="forceLaunch()">🚀 LAUNCH SYNC</button>
+
+    <div class="chat-box" id="chat-box">
+      <div class="message bot">
+        <b>System Ready.</b><br />
+        Click the green button to launch the Iron Curtain on your PC.
+      </div>
+    </div>
+
+    <div class="input-area">
+      <input
+        type="text"
+        id="user-input"
+        placeholder="Ask a question..."
+        onkeypress="handleEnter(event)"
+      />
+      <button class="send-btn" onclick="sendMessage()">➤</button>
+    </div>
+
+    <script>
+      // 🟢 THIS IS THE MEGAPHONE
+      function forceLaunch() {
+        // "_top" breaks out of the sidebar sandbox
+        window.open("missionai://run", "_top");
+      }
+
+      // Chat Logic
+      function sendMessage() {
+        var input = document.getElementById("user-input");
+        var msg = input.value.trim();
+        if (!msg) return;
+        addMessage(msg, "user");
+        input.value = "";
+        google.script.run
+          .withSuccessHandler(function (reply) {
+            addMessage(reply, "bot");
+          })
+          .sendToPython(msg);
+      }
+      function addMessage(text, sender) {
+        var div = document.createElement("div");
+        div.className = "message " + sender;
+        div.innerHTML = text;
+        document.getElementById("chat-box").appendChild(div);
+      }
+      function handleEnter(e) {
+        if (e.key === "Enter") sendMessage();
+      }
+    </script>
+  </body>
+</html>
