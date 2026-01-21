@@ -22,7 +22,7 @@ def get_master_roster():
     raw_data = load_json_file('missionaries.json')
     clean_roster = []
     # ... (Keep your existing list finding logic) ...
-    for m in missionary_list:
+    for m in raw_data:
         # ... (Keep your existing filtering logic) ...
         clean_roster.append({
             "ID": m.get('missionaryId'), # HIDDEN IDENTIFIER
