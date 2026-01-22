@@ -1,12 +1,13 @@
 import requests
 from geopy.geocoders import Nominatim
 
-class Locations:
-    def __init__(self, address):
+class Location:
+    def __init__(self, address, state):
         self.address = address
-        issafe = False
+        self.state = state
+        self.issafe = False
         if address == "721 paxton hollow rd Broomall PA":
-            issafe = True
+            self.issafe = True
         self.geolocator = Nominatim(user_agent="osrm_example")
 
     def _coordinates(self, address):
@@ -87,10 +88,16 @@ class Missionary:
 
 #missionList =[[email, arriving, destination],...]
 #vehicleList = [[id, units, curArea, destination, [missionaryemail, missionaryemail]],...]
+#locationList = [[address, sate # can be "chur" or "house"],...]
 #StartThatJawn(missionList, vehicleList)
-def StartThatJawn(mishList, veList):
+def StartThatJawn(mishList, veList, locList):
     missionaries = []
     vehicles = []
+    locations = []
+
+    for x in locList:
+        l = Location(x[0], x[1])
+        locations.append()
     for x in mishList:
         m = Missionary(x[0], x[1], x[2])
         m.plotRoute()
@@ -99,10 +106,3 @@ def StartThatJawn(mishList, veList):
         v = Vehicle(x[0], x[1], x[2], x[3], x[4])
         v.plotRoute()
         vehicles.append(v)
-
-def main():
-    m = [[0,"619 Venetia ave Blackwood NJ 08012", "41C Monroe Path Maple Shade NJ 08052"]]
-    StartThatJawn(m)
-
-if __name__ == "__main__":
-    main()
