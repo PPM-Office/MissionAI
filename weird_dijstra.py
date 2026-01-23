@@ -4,9 +4,8 @@ from dataclasses import dataclass
 from geopy.geocoders import Nominatim
 
 class Location:
-    def __init__(self, address, state, can_switch=True, can_be_alone=False):
+    def __init__(self, address, can_switch=True, can_be_alone=False):
         self.address = address
-        self.state = state
         self.can_switch = can_switch
         self.can_be_alone = can_be_alone
         self.geolocator = Nominatim(user_agent="osrm_example")
@@ -53,19 +52,31 @@ class State:
     vehicle_loads: tuple
     missionary_pos: tuple
 
-def no_one_alone(state, locations):
+def valid_grouping(state, vehicles, locations):
+    # --- Check locations ---
     for loc in locations:
-        if loc.can_be_alone:
-            continue
-        count = sum(1 for p in state.missionary_pos if p == loc.address)
-        if count == 1:
+        count = sum(
+            1 for p in state.missionary_pos if p == loc.address
+        )
+        if count == 1 and not loc.can_be_alone:
             return False
+
+    # --- Check vehicles ---
+    for vid, load in enumerate(state.vehicle_loads):
+        if len(load) == 1:
+            return False
+
     return True
 
 def neighbors(state, vehicles, missionaries, locations):
     out = []
 
     for vid, vpos in enumerate(state.vehicle_pos):
+
+        # 🚫 Vehicle cannot move unless it has >= 2 missionaries
+        if len(state.vehicle_loads[vid]) < 2:
+            continue
+
         for loc in locations:
             if loc.address == vpos:
                 continue
@@ -85,7 +96,7 @@ def neighbors(state, vehicles, missionaries, locations):
                 missionary_pos=tuple(new_mpos)
             )
 
-            if no_one_alone(new_state, locations):
+            if valid_grouping(new_state, vehicles, locations):
                 cost = vehicle_distance(
                     next(l for l in locations if l.address == vpos),
                     loc
@@ -101,8 +112,16 @@ def neighbors(state, vehicles, missionaries, locations):
                         continue
                     if len(state.vehicle_loads[v2]) < vehicles[v2].capacity:
                         loads = list(state.vehicle_loads)
-                        loads[vid] = frozenset(loads[vid] - {mid})
-                        loads[v2] = frozenset(loads[v2] | {mid})
+                        new_load_v1 = loads[vid] - {mid}
+                        new_load_v2 = loads[v2] | {mid}
+
+                        # 🚫 Cannot create a solo missionary vehicle
+                        if len(new_load_v1) == 1 or len(new_load_v2) == 1:
+                            continue
+
+                        loads[vid] = frozenset(new_load_v1)
+                        loads[v2] = frozenset(new_load_v2)
+
 
                         new_state = State(
                             vehicle_pos=state.vehicle_pos,
@@ -110,7 +129,7 @@ def neighbors(state, vehicles, missionaries, locations):
                             missionary_pos=state.missionary_pos
                         )
 
-                        if no_one_alone(new_state, locations):
+                        if valid_grouping(new_state, vehicles, locations):
                             out.append((new_state, 0))
     return out
 
@@ -163,40 +182,9 @@ def solve(vehicles, missionaries, locations):
     return None
 
 def StartThatJawn(mishList, veList, locList):
-    # --- Build locations ---
-    locations = []
-    loc_by_addr = {}
-
-    for addr, state in locList:
-        # Customize these rules as needed
-        can_switch = True
-        can_be_alone = (addr == "721 paxton hollow rd Broomall PA")
-
-        loc = Location(
-            address=addr,
-            state=state,
-            can_switch=can_switch,
-            can_be_alone=can_be_alone
-        )
-        locations.append(loc)
-        loc_by_addr[addr] = loc
-
-    # --- Build missionaries ---
-    missionaries = []
-    for email, curArea, destination in mishList:
-        missionaries.append(
-            Missionary(email, curArea, destination)
-        )
-
-    # --- Build vehicles ---
-    vehicles = []
-    for vid, capacity, curArea, destination, _assigned in veList:
-        vehicles.append(
-            Vehicle(vid, capacity, curArea, destination)
-        )
 
     # --- Solve ---
-    result = solve(vehicles, missionaries, locations)
+    result = solve(mishList, veList, locList)
 
     if result is None:
         print("❌ No valid solution found")
@@ -217,7 +205,7 @@ def StartThatJawn(mishList, veList, locList):
     path.reverse()
 
     # --- Pretty print ---
-    explain_solution(path, vehicles, missionaries)
+    explain_solution(path, veList, mishList)
 
     return path
 
