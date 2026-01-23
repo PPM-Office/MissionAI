@@ -45,3 +45,4 @@ def robust_imos_scraper():
     finally:
         if driver:
             driver.quit()
+input("Process complete. Press Enter to close this window...")
