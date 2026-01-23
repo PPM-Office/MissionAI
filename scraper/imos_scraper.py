@@ -28,7 +28,7 @@ def robust_imos_scraper():
         try:
             wait.until(EC.invisibility_of_element_located((By.CLASS_NAME, "loading-pendulum")))
         except TimeoutException:
-            logger.warning("Pendulum still visible, continuing anyway...")
+            print("Pendulum still visible, continuing anyway...")
         
         # Wait for actual data tables
         wait.until(EC.presence_of_element_located((By.XPATH, "//table[contains(@class, 'data-table')]")))
@@ -40,7 +40,7 @@ def robust_imos_scraper():
         return True
         
     except Exception as e:
-        logger.error(f"Scraper failed: {str(e)}")
+        print(f"Scraper failed: {str(e)}")
         return False
     finally:
         if driver:
