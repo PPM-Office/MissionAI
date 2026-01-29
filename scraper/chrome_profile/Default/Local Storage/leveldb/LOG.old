@@ -1,0 +1,22 @@
+2026/01/16-15:53:08.621 1109c Reusing MANIFEST C:\Users\2011484-MTS\OneDrive - Church of Jesus Christ\Attachments\App Scripts\MissionAI\chrome_profile\Default\Local Storage\leveldb/MANIFEST-000001
+2026/01/16-15:53:08.625 1109c Recovering log #170
+2026/01/16-15:53:08.630 1109c Level-0 table #173: started
+2026/01/16-15:53:08.644 1109c Level-0 table #173: 74669 bytes OK
+2026/01/16-15:53:08.646 1109c Recovering log #172
+2026/01/16-15:53:08.653 1109c Reusing old log C:\Users\2011484-MTS\OneDrive - Church of Jesus Christ\Attachments\App Scripts\MissionAI\chrome_profile\Default\Local Storage\leveldb/000172.log 
+2026/01/16-15:53:08.661 1109c Delete type=0 #170
+2026/01/16-15:53:17.076 ec5c Level-0 table #175: started
+2026/01/16-15:53:17.086 ec5c Level-0 table #175: 79621 bytes OK
+2026/01/16-15:53:17.089 ec5c Delete type=0 #172
+2026/01/16-15:54:08.697 ec5c Level-0 table #177: started
+2026/01/16-15:54:08.714 ec5c Level-0 table #177: 76983 bytes OK
+2026/01/16-15:54:08.718 ec5c Delete type=0 #174
+2026/01/16-15:54:08.720 ec5c Compacting 4@0 + 1@1 files
+2026/01/16-15:54:08.732 ec5c Generated table #178@0: 164 keys, 83478 bytes
+2026/01/16-15:54:08.732 ec5c Compacted 4@0 + 1@1 files => 83478 bytes
+2026/01/16-15:54:08.733 ec5c compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/01/16-15:54:08.735 ec5c Delete type=2 #169
+2026/01/16-15:54:08.735 ec5c Delete type=2 #171
+2026/01/16-15:54:08.735 ec5c Delete type=2 #173
+2026/01/16-15:54:08.736 ec5c Delete type=2 #175
+2026/01/16-15:54:08.736 ec5c Delete type=2 #177

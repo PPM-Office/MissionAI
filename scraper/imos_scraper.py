@@ -1,48 +1,72 @@
-# Enhanced scraper with better error handling
 import time
+import json
 from selenium import webdriver
-from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException, NoSuchElementException
 
-def robust_imos_scraper():
-    """Enhanced scraper with proper waits and error handling"""
+# --- 1. SETTINGS ---
+options = Options()
+# Removed "detach" so that the browser closes when the script finishes
+options.set_capability("goog:loggingPrefs", {"performance": "ALL"})
+driver = webdriver.Chrome(service=Service("chromedriver.exe"), options=options)
+
+# --- 2. LOGIC TO GRAB DATA ---
+def get_data_and_save(target_url, api_keyword, filename):
+    """Navigates to a page, finds the hidden ID, and saves the JSON file."""
+    driver.get_log("performance") # Clear old logs
+    print(f"Opening: {target_url}")
+    driver.get(target_url)
     
-    driver = None
-    try:
-        # Setup with explicit waits
-        options = webdriver.ChromeOptions()
-        options.add_argument('--disable-blink-features=AutomationControlled')
-        driver = webdriver.Chrome(options=options)
-        wait = WebDriverWait(driver, 30)
+    time.sleep(12) # Wait for IMOS to load the data
+    
+    # Look through the background "noise" for the API link
+    logs = driver.get_log("performance")
+    found_id = None
+    for entry in logs:
+        log_message = json.loads(entry["message"])["message"]
+        if "Network.requestWillBeSent" in log_message["method"]:
+            url = log_message.get("params", {}).get("request", {}).get("url", "")
+            if api_keyword in url:
+                found_id = url.split("/")[-1].split("?")[0]
+                break
+    
+    if found_id:
+        # Build the secret API link and ask the browser to get the data
+        api_url = f"https://imos.churchofjesuschrist.org/ws/auth-controller/api-v1/dynamic-reports/{api_keyword}{found_id}"
+        data = driver.execute_script(f"return fetch('{api_url}').then(r => r.json())")
         
-        # Navigate to IMOS
-        driver.get("https://imos.churchofjesuschrist.org")
-        
-        # Wait for main content to load (avoid pendulum issues)
-        wait.until(EC.presence_of_element_located((By.TAG_NAME, "body")))
-        
-        # Add specific waits for data elements
-        # Replace these selectors with actual IMOS selectors
-        try:
-            wait.until(EC.invisibility_of_element_located((By.CLASS_NAME, "loading-pendulum")))
-        except TimeoutException:
-            print("Pendulum still visible, continuing anyway...")
-        
-        # Wait for actual data tables
-        wait.until(EC.presence_of_element_located((By.XPATH, "//table[contains(@class, 'data-table')]")))
-        
-        # Scrape data here...
-        # Save files to computer
-        # Update Google Sheet via API
-        
-        return True
-        
-    except Exception as e:
-        print(f"Scraper failed: {str(e)}")
-        return False
-    finally:
-        if driver:
-            driver.quit()
-input("Process complete. Press Enter to close this window...")
+        # Write the data to a file in your folder
+        with open(filename, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=4)
+        print(f"Done! {filename} is ready.")
+    else:
+        print(f"Could not find data for {filename}")
+
+# --- 3. THE ACTUAL RUN ---
+try:
+    # A. Login
+    driver.get("https://missionary.churchofjesuschrist.org")
+    print("Please log in manually in the browser...")
+    WebDriverWait(driver, 900).until(EC.url_contains("/portal/home"))
+
+    # B. Get Areas
+    get_data_and_save(
+        "https://imos.churchofjesuschrist.org/dynamic-areas/#/list/default", 
+        "areas/data/", 
+        "areas_data.json"
+    )
+
+    # C. Get Roster
+    get_data_and_save(
+        "https://imos.churchofjesuschrist.org/dynamic-roster/#/list/default", 
+        "roster/data/", 
+        "roster_data.json"
+    )
+
+finally:
+    # --- 4. CLEANUP ---
+    print("Closing browser in 5 seconds...")
+    time.sleep(5)
+    driver.quit() # This closes the window and the icon on your taskbar
