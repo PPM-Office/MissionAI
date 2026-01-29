@@ -9,4 +9,4 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\missionai\shell\open]
 
 [HKEY_CURRENT_USER\Software\Classes\missionai\shell\open\command]
-@="\"C:\\Windows\\py.exe\" \"C:\\Users\\2011484-MTS\\OneDrive - Church of Jesus Christ\\Attachments\\App Scripts\\MissionAI\\imos_scraper.py\""
+@="\"C:\\Windows\\py.exe\" \"C:\\Users\\2011484-MTS\\OneDrive - Church of Jesus Christ\\Attachments\\App Scripts\\MissionAI\\scraper\\imos_scraper.py\""
