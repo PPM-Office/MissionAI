@@ -154,12 +154,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "N"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -310,12 +304,6 @@
         "id": null,
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
-        "value": "N"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
         "value": "N"
       }
     ]
@@ -492,12 +480,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Yes"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -677,12 +659,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Yes"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -853,12 +829,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Y"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -1035,12 +1005,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Yes"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -1218,9 +1182,9 @@
     ],
     "languages": [
       {
-        "languageId": 1,
-        "name": "English",
-        "normalizedName": "English",
+        "languageId": 21,
+        "name": "Spanish",
+        "normalizedName": "Spanish",
         "sortOrder": null
       }
     ],
@@ -1252,12 +1216,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Yes"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -1408,12 +1366,6 @@
         "id": null,
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
-        "value": "N"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
         "value": "N"
       }
     ]
@@ -1581,12 +1533,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Y"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -1739,12 +1685,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Y"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -1915,12 +1855,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Yes"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -2129,8 +2063,8 @@
       {
         "phoneId": null,
         "oraclePhoneId": null,
-        "phoneNumber": "+1 (484) 657-6319",
-        "phone": "(484) 657-6319",
+        "phoneNumber": "+1 (484)745-3250",
+        "phone": "(484)745-3250",
         "countryCode": "1",
         "notes": null,
         "normalizedNotes": null,
@@ -2243,12 +2177,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Yes"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -2424,12 +2352,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Yes"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -2588,12 +2510,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Yes"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -2763,12 +2679,6 @@
         "id": null,
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
-        "value": "N"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
         "value": "N"
       }
     ]
@@ -2949,12 +2859,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Yes"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -3141,12 +3045,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Yes"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -3352,12 +3250,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Yes"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -3516,12 +3408,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Y"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -3674,12 +3560,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Yes"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -3850,12 +3730,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "N"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -4020,12 +3894,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Yes"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -4178,12 +4046,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Y"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -4348,12 +4210,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Y"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -4477,12 +4333,6 @@
         "id": null,
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
-        "value": "N"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
         "value": "N"
       }
     ]
@@ -4644,12 +4494,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "N"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -4803,12 +4647,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Y"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -4950,12 +4788,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Y"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -5121,12 +4953,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Y"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -5246,12 +5072,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Yes"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -5411,12 +5231,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Yes"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -5570,12 +5384,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Y"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -5729,12 +5537,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Y"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -5911,12 +5713,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "N"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -6081,12 +5877,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Yes"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -6257,12 +6047,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "N"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -6413,12 +6197,6 @@
         "id": null,
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
-        "value": "N"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
         "value": "N"
       }
     ]
@@ -6571,12 +6349,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Y"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -6753,12 +6525,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "N"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -6773,9 +6539,20 @@
     "areaName": "Mayfair II",
     "normalizedAreaName": "Mayfair II",
     "emailAddress": "500607559@missionary.org",
-    "vehicle": null,
-    "monthlyAllowance": null,
-    "vehicleUomCode": null,
+    "vehicle": {
+      "ccId": 1,
+      "vehicleDeviceId": "DVC_00073069",
+      "vinLastEight": "RW422589",
+      "make": "NISSAN",
+      "model": "ROGUE",
+      "year": 2024,
+      "vehicleUomCode": null,
+      "licensePlate": "MLM3101",
+      "color": "Brilliant Silver",
+      "areaVehicleStewards": []
+    },
+    "monthlyAllowance": 1000,
+    "vehicleUomCode": "Mi",
     "missionaries": [
       {
         "missionaryId": null,
@@ -6789,7 +6566,7 @@
         "roleName": null,
         "missionaryType": "ELDER",
         "canDrive": true,
-        "designatedDriver": false
+        "designatedDriver": true
       },
       {
         "missionaryId": null,
@@ -6912,12 +6689,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Y"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -7064,12 +6835,6 @@
         "id": null,
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
-        "value": "N"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
         "value": "N"
       }
     ]
@@ -7218,12 +6983,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "No"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "No"
       }
     ]
   },
@@ -7315,8 +7074,8 @@
       }
     ],
     "referralTypeId": 3,
-    "keyIndicators": true,
-    "areaBookPlanner": true,
+    "keyIndicators": false,
+    "areaBookPlanner": false,
     "areaCustomFields": [],
     "houseCustomFields": [
       {
@@ -7341,12 +7100,6 @@
         "id": null,
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
-        "value": "N"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
         "value": "N"
       }
     ]
@@ -7604,12 +7357,6 @@
         "id": null,
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
-        "value": "N"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
         "value": "N"
       }
     ]
@@ -7893,12 +7640,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Yes"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -8088,12 +7829,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Yes "
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -8312,12 +8047,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Y"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -8488,12 +8217,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "yes"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -8659,12 +8382,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Y"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -8811,12 +8528,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Y"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -8963,12 +8674,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Y"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -9141,12 +8846,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Y"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -9286,12 +8985,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Y"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -9455,12 +9148,6 @@
         "id": null,
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
-        "value": "N"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
         "value": "N"
       }
     ]
@@ -9632,12 +9319,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "N"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -9753,6 +9434,13 @@
     },
     "ecclesiasticalUnits": [
       {
+        "organizationId": 218383,
+        "unitName": "Allentown (Spanish)",
+        "normalizedUnitName": "Allentown (Spanish)",
+        "unitType": "Ward",
+        "parentOrganizationId": null
+      },
+      {
         "organizationId": 48852,
         "unitName": "Reading 1st",
         "normalizedUnitName": "Reading 1st",
@@ -9808,12 +9496,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Yes"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -9960,12 +9642,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Y"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -10135,12 +9811,6 @@
         "id": null,
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
-        "value": "N"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
         "value": "N"
       }
     ]
@@ -10312,12 +9982,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "N"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -10483,12 +10147,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Yes"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "No"
       }
     ]
   },
@@ -10661,12 +10319,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Yes"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "No"
       }
     ]
   },
@@ -10878,12 +10530,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "N"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "Y"
       }
     ]
   },
@@ -11075,12 +10721,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Yes"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "Yes"
       }
     ]
   },
@@ -11239,12 +10879,6 @@
         "id": null,
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
-        "value": "N"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
         "value": "N"
       }
     ]
@@ -11567,12 +11201,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Yes"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -11736,12 +11364,6 @@
         "id": null,
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
-        "value": "N"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
         "value": "N"
       }
     ]
@@ -11927,12 +11549,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Yes"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -12077,12 +11693,6 @@
         "id": null,
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
-        "value": "N"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
         "value": "N"
       }
     ]
@@ -12264,12 +11874,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "N"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -12416,12 +12020,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Y"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -12573,12 +12171,6 @@
         "id": null,
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
-        "value": "N"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
         "value": "N"
       }
     ]
@@ -12737,19 +12329,13 @@
         "id": null,
         "customFieldId": 587484853,
         "name": "Other Notes",
-        "value": "Cannot waive the $60 wifi fee; it is part of every apartment's leasing contract there.  It is part of the base rent amount of $1894 listed above.  +10.00 convenience fee each month."
+        "value": "Cannot waive the $60 wifi fee; it is part of every apartment's leasing contract there.  It is part of the base rent amount of $1894 listed above.  +10.00 convenience fee each month. New leased signed  1/23/26, base rent will go up to $1950 on 7/21/2026. "
       },
       {
         "id": null,
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Y"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -12950,12 +12536,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "N"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -13007,8 +12587,8 @@
       {
         "phoneId": null,
         "oraclePhoneId": null,
-        "phoneNumber": "+1 484-861-0081   tap 1",
-        "phone": "484-861-0081",
+        "phoneNumber": "+1 8014192187   tap 1",
+        "phone": "8014192187",
         "countryCode": "1",
         "notes": "tap 1",
         "normalizedNotes": "tap 1",
@@ -13019,8 +12599,8 @@
       {
         "phoneId": null,
         "oraclePhoneId": null,
-        "phoneNumber": "+1 835-220-6679   tap 2",
-        "phone": "835-220-6679",
+        "phoneNumber": "+1 8014192468   tap 2",
+        "phone": "8014192468",
         "countryCode": "1",
         "notes": "tap 2",
         "normalizedNotes": "tap 2",
@@ -13103,12 +12683,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Y"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -13255,19 +12829,13 @@
         "id": null,
         "customFieldId": 587484853,
         "name": "Other Notes",
-        "value": "Cannot waive the $60 wifi fee; it is part of every apartment's leasing contract there.  It is part of the base rent amount of $1894 listed above.  +10.00 convenience fee each month."
+        "value": "Cannot waive the $60 wifi fee; it is part of every apartment's leasing contract there.  It is part of the base rent amount of $1894 listed above.  +10.00 convenience fee each month. New leased signed  1/23/26, base rent will go up to $1950 on 7/21/2026. "
       },
       {
         "id": null,
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Y"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -13432,12 +13000,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Yes"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -13496,141 +13058,6 @@
         "normalizedNotes": null,
         "iso2Code": null,
         "textCapable": false,
-        "sortOrder": 0
-      }
-    ],
-    "houseId": null,
-    "house": {
-      "id": null,
-      "oracleId": null,
-      "name": "Phila/ Spring Garden St/ 1601",
-      "normalizedName": "Phila/ Spring Garden St/ 1601",
-      "description": "1 Bedroom, 1 Bath ",
-      "referenceKey": null,
-      "address": "1601 Spring Garden Street, M-107",
-      "normalizedAddress": "1601 Spring Garden Street, M-107",
-      "city": "Philadelphia",
-      "normalizedCity": "Philadelphia",
-      "state": "PA",
-      "normalizedState": "PA",
-      "postalCode": null,
-      "district": null,
-      "normalizedDistrict": null,
-      "countryId": null,
-      "iso3Code": null,
-      "statusKey": null,
-      "typeKey": null,
-      "upcomingTypeKey": null,
-      "houseSafe": null,
-      "leaseStartDate": null,
-      "leaseEndDate": null,
-      "upcomingLeaseStartDate": null,
-      "upcomingLeaseEndDate": null,
-      "areas": [],
-      "maxCapacity": null,
-      "suitableForElders": null,
-      "suitableForSisters": null,
-      "suitableForCouples": null,
-      "upcomingEffectiveDate": null,
-      "lastLeaseInformationUpdatedDate": null,
-      "lastLeaseInformationUpdatedBy": null,
-      "customFields": [],
-      "devices": [],
-      "leaseInformation": null,
-      "upcomingLeaseInformation": null,
-      "attachments": null
-    },
-    "ecclesiasticalUnits": [
-      {
-        "organizationId": 193607,
-        "unitName": "Philadelphia YSA",
-        "normalizedUnitName": "Philadelphia YSA",
-        "unitType": "Ward",
-        "parentOrganizationId": null
-      }
-    ],
-    "languages": [
-      {
-        "languageId": 1,
-        "name": "English",
-        "normalizedName": "English",
-        "sortOrder": null
-      }
-    ],
-    "referralTypeId": 2,
-    "keyIndicators": true,
-    "areaBookPlanner": true,
-    "areaCustomFields": [],
-    "houseCustomFields": [
-      {
-        "id": null,
-        "customFieldId": 678519662,
-        "name": "Landlord Contact Phone #",
-        "value": "Rosemary: 610-372-2096. \nrosemaryelaine@gmail.com"
-      },
-      {
-        "id": null,
-        "customFieldId": 587484853,
-        "name": "Other Notes",
-        "value": "Two security deposits, $1475 for the vendor and $1475 for the condo assoc. There is also a $150 move in/out fee to the condo assoc."
-      }
-    ]
-  },
-  {
-    "zoneId": null,
-    "zoneName": "VALLEY FORGE (VFG)",
-    "normalizedZoneName": "VALLEY FORGE (VFG)",
-    "districtId": null,
-    "districtName": "VFG II",
-    "normalizedDistrictName": "VFG II",
-    "areaId": 500616729,
-    "areaName": "PHL YSA II",
-    "normalizedAreaName": "PHL YSA II",
-    "emailAddress": "500616729@missionary.org",
-    "vehicle": null,
-    "monthlyAllowance": null,
-    "vehicleUomCode": null,
-    "missionaries": [
-      {
-        "missionaryId": null,
-        "firstName": "Greyson",
-        "normalizedFirstName": "Greyson",
-        "middleName": "Scott",
-        "normalizedMiddleName": "Scott",
-        "lastName": "Covington",
-        "normalizedLastName": "Covington",
-        "emailAddress": "greyson.covington@missionary.org",
-        "roleName": null,
-        "missionaryType": "ELDER",
-        "canDrive": true,
-        "designatedDriver": false
-      },
-      {
-        "missionaryId": null,
-        "firstName": "Talin",
-        "normalizedFirstName": "Talin",
-        "middleName": "Isaiah",
-        "normalizedMiddleName": "Isaiah",
-        "lastName": "Gosman",
-        "normalizedLastName": "Gosman",
-        "emailAddress": "talin.gosman@missionary.org",
-        "roleName": null,
-        "missionaryType": "ELDER",
-        "canDrive": true,
-        "designatedDriver": false
-      }
-    ],
-    "phones": [
-      {
-        "phoneId": null,
-        "oraclePhoneId": null,
-        "phoneNumber": "+1 267-886-6316",
-        "phone": "267-886-6316",
-        "countryCode": "1",
-        "notes": null,
-        "normalizedNotes": null,
-        "iso2Code": null,
-        "textCapable": true,
         "sortOrder": 0
       }
     ],
@@ -13720,12 +13147,141 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "yes"
+      }
+    ]
+  },
+  {
+    "zoneId": null,
+    "zoneName": "VALLEY FORGE (VFG)",
+    "normalizedZoneName": "VALLEY FORGE (VFG)",
+    "districtId": null,
+    "districtName": "VFG II",
+    "normalizedDistrictName": "VFG II",
+    "areaId": 500616729,
+    "areaName": "PHL YSA II",
+    "normalizedAreaName": "PHL YSA II",
+    "emailAddress": "500616729@missionary.org",
+    "vehicle": null,
+    "monthlyAllowance": null,
+    "vehicleUomCode": null,
+    "missionaries": [
+      {
+        "missionaryId": null,
+        "firstName": "Greyson",
+        "normalizedFirstName": "Greyson",
+        "middleName": "Scott",
+        "normalizedMiddleName": "Scott",
+        "lastName": "Covington",
+        "normalizedLastName": "Covington",
+        "emailAddress": "greyson.covington@missionary.org",
+        "roleName": null,
+        "missionaryType": "ELDER",
+        "canDrive": true,
+        "designatedDriver": false
+      },
+      {
+        "missionaryId": null,
+        "firstName": "Talin",
+        "normalizedFirstName": "Talin",
+        "middleName": "Isaiah",
+        "normalizedMiddleName": "Isaiah",
+        "lastName": "Gosman",
+        "normalizedLastName": "Gosman",
+        "emailAddress": "talin.gosman@missionary.org",
+        "roleName": null,
+        "missionaryType": "ELDER",
+        "canDrive": true,
+        "designatedDriver": false
+      }
+    ],
+    "phones": [
+      {
+        "phoneId": null,
+        "oraclePhoneId": null,
+        "phoneNumber": "+1 267-886-6316",
+        "phone": "267-886-6316",
+        "countryCode": "1",
+        "notes": null,
+        "normalizedNotes": null,
+        "iso2Code": null,
+        "textCapable": true,
+        "sortOrder": 0
+      }
+    ],
+    "houseId": null,
+    "house": {
+      "id": null,
+      "oracleId": null,
+      "name": "Phila/ Spring Garden St/ 1601",
+      "normalizedName": "Phila/ Spring Garden St/ 1601",
+      "description": "1 Bedroom, 1 Bath ",
+      "referenceKey": null,
+      "address": "1601 Spring Garden Street, M-107",
+      "normalizedAddress": "1601 Spring Garden Street, M-107",
+      "city": "Philadelphia",
+      "normalizedCity": "Philadelphia",
+      "state": "PA",
+      "normalizedState": "PA",
+      "postalCode": null,
+      "district": null,
+      "normalizedDistrict": null,
+      "countryId": null,
+      "iso3Code": null,
+      "statusKey": null,
+      "typeKey": null,
+      "upcomingTypeKey": null,
+      "houseSafe": null,
+      "leaseStartDate": null,
+      "leaseEndDate": null,
+      "upcomingLeaseStartDate": null,
+      "upcomingLeaseEndDate": null,
+      "areas": [],
+      "maxCapacity": null,
+      "suitableForElders": null,
+      "suitableForSisters": null,
+      "suitableForCouples": null,
+      "upcomingEffectiveDate": null,
+      "lastLeaseInformationUpdatedDate": null,
+      "lastLeaseInformationUpdatedBy": null,
+      "customFields": [],
+      "devices": [],
+      "leaseInformation": null,
+      "upcomingLeaseInformation": null,
+      "attachments": null
+    },
+    "ecclesiasticalUnits": [
+      {
+        "organizationId": 193607,
+        "unitName": "Philadelphia YSA",
+        "normalizedUnitName": "Philadelphia YSA",
+        "unitType": "Ward",
+        "parentOrganizationId": null
+      }
+    ],
+    "languages": [
+      {
+        "languageId": 1,
+        "name": "English",
+        "normalizedName": "English",
+        "sortOrder": null
+      }
+    ],
+    "referralTypeId": 2,
+    "keyIndicators": true,
+    "areaBookPlanner": true,
+    "areaCustomFields": [],
+    "houseCustomFields": [
+      {
+        "id": null,
+        "customFieldId": 678519662,
+        "name": "Landlord Contact Phone #",
+        "value": "Rosemary: 610-372-2096. \nrosemaryelaine@gmail.com"
       },
       {
         "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
+        "customFieldId": 587484853,
+        "name": "Other Notes",
+        "value": "Two security deposits, $1475 for the vendor and $1475 for the condo assoc. There is also a $150 move in/out fee to the condo assoc."
       }
     ]
   },
@@ -13877,12 +13433,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Y"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -14095,12 +13645,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Yes"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -14407,12 +13951,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Yes"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -14588,12 +14126,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Yes"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -14769,12 +14301,6 @@
         "id": null,
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
-        "value": "N"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
         "value": "N"
       }
     ]
@@ -14952,12 +14478,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Y"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -15128,12 +14648,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Y"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -15291,12 +14805,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Yes"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -15454,12 +14962,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Yes"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -15486,7 +14988,7 @@
       "color": "Sonic Silver",
       "areaVehicleStewards": []
     },
-    "monthlyAllowance": 500,
+    "monthlyAllowance": 1000,
     "vehicleUomCode": "Mi",
     "missionaries": [
       {
@@ -15502,6 +15004,20 @@
         "missionaryType": "ELDER",
         "canDrive": true,
         "designatedDriver": true
+      },
+      {
+        "missionaryId": null,
+        "firstName": "Spencer",
+        "normalizedFirstName": "Spencer",
+        "middleName": "Kennly",
+        "normalizedMiddleName": "Kennly",
+        "lastName": "Egbert",
+        "normalizedLastName": "Egbert",
+        "emailAddress": "segbert@missionary.org",
+        "roleName": null,
+        "missionaryType": "ELDER",
+        "canDrive": true,
+        "designatedDriver": false
       }
     ],
     "phones": [
@@ -15637,12 +15153,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "N"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -15657,36 +15167,10 @@
     "areaName": "S. PHL SP II",
     "normalizedAreaName": "S. PHL SP II",
     "emailAddress": "500443550@missionary.org",
-    "vehicle": {
-      "ccId": 111,
-      "vehicleDeviceId": "DVC_00083032",
-      "vinLastEight": "SV080994",
-      "make": "TOYOTA",
-      "model": "COROLLACRO",
-      "year": 2025,
-      "vehicleUomCode": null,
-      "licensePlate": "MXB3469",
-      "color": "Sonic Silver",
-      "areaVehicleStewards": []
-    },
-    "monthlyAllowance": 500,
-    "vehicleUomCode": "Mi",
-    "missionaries": [
-      {
-        "missionaryId": null,
-        "firstName": "Spencer",
-        "normalizedFirstName": "Spencer",
-        "middleName": "Kennly",
-        "normalizedMiddleName": "Kennly",
-        "lastName": "Egbert",
-        "normalizedLastName": "Egbert",
-        "emailAddress": "segbert@missionary.org",
-        "roleName": null,
-        "missionaryType": "ELDER",
-        "canDrive": true,
-        "designatedDriver": true
-      }
-    ],
+    "vehicle": null,
+    "monthlyAllowance": null,
+    "vehicleUomCode": null,
+    "missionaries": [],
     "phones": [
       {
         "phoneId": null,
@@ -15798,12 +15282,6 @@
         "id": null,
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
-        "value": "N"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
         "value": "N"
       }
     ]
@@ -15965,12 +15443,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Yes"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -16149,12 +15621,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Yes"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -16326,12 +15792,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Yes"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -16484,12 +15944,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Yes"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -16658,12 +16112,6 @@
         "id": null,
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
-        "value": "N"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
         "value": "N"
       }
     ]
@@ -16835,12 +16283,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Y"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -17017,12 +16459,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Y"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -17386,12 +16822,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "N"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -17582,12 +17012,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "N"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -17740,12 +17164,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Y"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -17916,12 +17334,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "No"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   },
@@ -18080,12 +17492,6 @@
         "customFieldId": 879399182,
         "name": "Insurance Certificate Required ",
         "value": "Y"
-      },
-      {
-        "id": null,
-        "customFieldId": 880005502,
-        "name": "HVAC Filters Mission Resp. Y/N, Filter Size:",
-        "value": "N"
       }
     ]
   }
