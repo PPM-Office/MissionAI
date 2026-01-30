@@ -45,6 +45,7 @@ def get_data_and_save(target_url, api_keyword, filename):
         print(f"Could not find data for {filename}")
 
 # --- 3. THE ACTUAL RUN ---
+# --- 3. THE ACTUAL RUN ---
 try:
     # A. Login
     driver.get("https://missionary.churchofjesuschrist.org")
@@ -55,18 +56,21 @@ try:
     get_data_and_save(
         "https://imos.churchofjesuschrist.org/dynamic-areas/#/list/default", 
         "areas/data/", 
-        "areas_data.json"
+        r"C:\Users\2011484-MTS\OneDrive - Church of Jesus Christ\Attachments\MissionAI\data\areas.json"
     )
 
     # C. Get Roster
     get_data_and_save(
         "https://imos.churchofjesuschrist.org/dynamic-roster/#/list/default", 
         "roster/data/", 
-        "roster_data.json"
+        r"C:\Users\2011484-MTS\OneDrive - Church of Jesus Christ\Attachments\MissionAI\data\missionaries.json"
     )
+
+except Exception as e:
+    print(f"An error occurred during the run: {e}")
 
 finally:
     # --- 4. CLEANUP ---
     print("Closing browser in 5 seconds...")
     time.sleep(5)
-    driver.quit() # This closes the window and the icon on your taskbar
+    driver.quit()
