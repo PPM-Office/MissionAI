@@ -504,6 +504,20 @@
         "areaId": null,
         "assignedEcclUnits": [
             {
+                "normalizedUnitName": "Scranton 2nd (Spanish)",
+                "organizationId": 2083469,
+                "parentOrganizationId": null,
+                "unitName": "Scranton 2nd (Spanish)",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Susquehanna",
+                "organizationId": 372617,
+                "parentOrganizationId": null,
+                "unitName": "Susquehanna",
+                "unitType": null
+            },
+            {
                 "normalizedUnitName": "Scranton 1st",
                 "organizationId": 47430,
                 "parentOrganizationId": null,
@@ -518,24 +532,10 @@
                 "unitType": null
             },
             {
-                "normalizedUnitName": "Susquehanna",
-                "organizationId": 372617,
-                "parentOrganizationId": null,
-                "unitName": "Susquehanna",
-                "unitType": null
-            },
-            {
                 "normalizedUnitName": "Clarks Summit",
                 "organizationId": 2039540,
                 "parentOrganizationId": null,
                 "unitName": "Clarks Summit",
-                "unitType": null
-            },
-            {
-                "normalizedUnitName": "Scranton 2nd (Spanish)",
-                "organizationId": 2083469,
-                "parentOrganizationId": null,
-                "unitName": "Scranton 2nd (Spanish)",
                 "unitType": null
             }
         ],
@@ -2956,17 +2956,17 @@
         "areaId": null,
         "assignedEcclUnits": [
             {
-                "normalizedUnitName": "Nazareth",
-                "organizationId": 100277,
-                "parentOrganizationId": null,
-                "unitName": "Nazareth",
-                "unitType": null
-            },
-            {
                 "normalizedUnitName": "Easton",
                 "organizationId": 1623370,
                 "parentOrganizationId": null,
                 "unitName": "Easton",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Nazareth",
+                "organizationId": 100277,
+                "parentOrganizationId": null,
+                "unitName": "Nazareth",
                 "unitType": null
             }
         ],
@@ -3254,17 +3254,17 @@
         "areaId": null,
         "assignedEcclUnits": [
             {
-                "normalizedUnitName": "Lehighton",
-                "organizationId": 147109,
-                "parentOrganizationId": null,
-                "unitName": "Lehighton",
-                "unitType": null
-            },
-            {
                 "normalizedUnitName": "Hazleton (Spanish)",
                 "organizationId": 2063034,
                 "parentOrganizationId": null,
                 "unitName": "Hazleton (Spanish)",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Lehighton",
+                "organizationId": 147109,
+                "parentOrganizationId": null,
+                "unitName": "Lehighton",
                 "unitType": null
             }
         ],
@@ -4253,31 +4253,24 @@
         "areaId": null,
         "assignedEcclUnits": [
             {
-                "normalizedUnitName": "Philadelphia Pennsylvania",
-                "organizationId": 503347,
-                "parentOrganizationId": null,
-                "unitName": "Philadelphia Pennsylvania",
-                "unitType": null
-            },
-            {
-                "normalizedUnitName": "Wilmington Delaware",
-                "organizationId": 507385,
-                "parentOrganizationId": null,
-                "unitName": "Wilmington Delaware",
-                "unitType": null
-            },
-            {
-                "normalizedUnitName": "Scranton Pennsylvania",
-                "organizationId": 512168,
-                "parentOrganizationId": null,
-                "unitName": "Scranton Pennsylvania",
-                "unitType": null
-            },
-            {
                 "normalizedUnitName": "Cherry Hill New Jersey",
                 "organizationId": 512370,
                 "parentOrganizationId": null,
                 "unitName": "Cherry Hill New Jersey",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Dover Delaware",
+                "organizationId": 1884182,
+                "parentOrganizationId": null,
+                "unitName": "Dover Delaware",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Philadelphia Pennsylvania",
+                "organizationId": 503347,
+                "parentOrganizationId": null,
+                "unitName": "Philadelphia Pennsylvania",
                 "unitType": null
             },
             {
@@ -4288,6 +4281,13 @@
                 "unitType": null
             },
             {
+                "normalizedUnitName": "Scranton Pennsylvania",
+                "organizationId": 512168,
+                "parentOrganizationId": null,
+                "unitName": "Scranton Pennsylvania",
+                "unitType": null
+            },
+            {
                 "normalizedUnitName": "Valley Forge Pennsylvania",
                 "organizationId": 613339,
                 "parentOrganizationId": null,
@@ -4295,10 +4295,10 @@
                 "unitType": null
             },
             {
-                "normalizedUnitName": "Dover Delaware",
-                "organizationId": 1884182,
+                "normalizedUnitName": "Wilmington Delaware",
+                "organizationId": 507385,
                 "parentOrganizationId": null,
-                "unitName": "Dover Delaware",
+                "unitName": "Wilmington Delaware",
                 "unitType": null
             }
         ],
@@ -4449,31 +4449,24 @@
         "areaId": null,
         "assignedEcclUnits": [
             {
-                "normalizedUnitName": "Philadelphia Pennsylvania",
-                "organizationId": 503347,
-                "parentOrganizationId": null,
-                "unitName": "Philadelphia Pennsylvania",
-                "unitType": null
-            },
-            {
-                "normalizedUnitName": "Wilmington Delaware",
-                "organizationId": 507385,
-                "parentOrganizationId": null,
-                "unitName": "Wilmington Delaware",
-                "unitType": null
-            },
-            {
-                "normalizedUnitName": "Scranton Pennsylvania",
-                "organizationId": 512168,
-                "parentOrganizationId": null,
-                "unitName": "Scranton Pennsylvania",
-                "unitType": null
-            },
-            {
                 "normalizedUnitName": "Cherry Hill New Jersey",
                 "organizationId": 512370,
                 "parentOrganizationId": null,
                 "unitName": "Cherry Hill New Jersey",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Dover Delaware",
+                "organizationId": 1884182,
+                "parentOrganizationId": null,
+                "unitName": "Dover Delaware",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Philadelphia Pennsylvania",
+                "organizationId": 503347,
+                "parentOrganizationId": null,
+                "unitName": "Philadelphia Pennsylvania",
                 "unitType": null
             },
             {
@@ -4484,6 +4477,13 @@
                 "unitType": null
             },
             {
+                "normalizedUnitName": "Scranton Pennsylvania",
+                "organizationId": 512168,
+                "parentOrganizationId": null,
+                "unitName": "Scranton Pennsylvania",
+                "unitType": null
+            },
+            {
                 "normalizedUnitName": "Valley Forge Pennsylvania",
                 "organizationId": 613339,
                 "parentOrganizationId": null,
@@ -4491,10 +4491,10 @@
                 "unitType": null
             },
             {
-                "normalizedUnitName": "Dover Delaware",
-                "organizationId": 1884182,
+                "normalizedUnitName": "Wilmington Delaware",
+                "organizationId": 507385,
                 "parentOrganizationId": null,
-                "unitName": "Dover Delaware",
+                "unitName": "Wilmington Delaware",
                 "unitType": null
             }
         ],
@@ -4645,17 +4645,17 @@
         "areaId": null,
         "assignedEcclUnits": [
             {
-                "normalizedUnitName": "Lehighton",
-                "organizationId": 147109,
-                "parentOrganizationId": null,
-                "unitName": "Lehighton",
-                "unitType": null
-            },
-            {
                 "normalizedUnitName": "Hazleton (Spanish)",
                 "organizationId": 2063034,
                 "parentOrganizationId": null,
                 "unitName": "Hazleton (Spanish)",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Lehighton",
+                "organizationId": 147109,
+                "parentOrganizationId": null,
+                "unitName": "Lehighton",
                 "unitType": null
             }
         ],
@@ -4948,13 +4948,6 @@
         "areaId": null,
         "assignedEcclUnits": [
             {
-                "normalizedUnitName": "Whitehall",
-                "organizationId": 48593,
-                "parentOrganizationId": null,
-                "unitName": "Whitehall",
-                "unitType": null
-            },
-            {
                 "normalizedUnitName": "Reading 1st",
                 "organizationId": 48852,
                 "parentOrganizationId": null,
@@ -4962,17 +4955,24 @@
                 "unitType": null
             },
             {
-                "normalizedUnitName": "Pottstown",
-                "organizationId": 95400,
-                "parentOrganizationId": null,
-                "unitName": "Pottstown",
-                "unitType": null
-            },
-            {
                 "normalizedUnitName": "Exeter",
                 "organizationId": 2026791,
                 "parentOrganizationId": null,
                 "unitName": "Exeter",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Whitehall",
+                "organizationId": 48593,
+                "parentOrganizationId": null,
+                "unitName": "Whitehall",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Pottstown",
+                "organizationId": 95400,
+                "parentOrganizationId": null,
+                "unitName": "Pottstown",
                 "unitType": null
             }
         ],
@@ -6817,17 +6817,17 @@
         "areaId": null,
         "assignedEcclUnits": [
             {
-                "normalizedUnitName": "Reading 1st",
-                "organizationId": 48852,
-                "parentOrganizationId": null,
-                "unitName": "Reading 1st",
-                "unitType": null
-            },
-            {
                 "normalizedUnitName": "Reading 3rd (Spanish)",
                 "organizationId": 557838,
                 "parentOrganizationId": null,
                 "unitName": "Reading 3rd (Spanish)",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Reading 1st",
+                "organizationId": 48852,
+                "parentOrganizationId": null,
+                "unitName": "Reading 1st",
                 "unitType": null
             },
             {
@@ -8044,31 +8044,24 @@
         "areaId": null,
         "assignedEcclUnits": [
             {
-                "normalizedUnitName": "Philadelphia Pennsylvania",
-                "organizationId": 503347,
-                "parentOrganizationId": null,
-                "unitName": "Philadelphia Pennsylvania",
-                "unitType": null
-            },
-            {
-                "normalizedUnitName": "Wilmington Delaware",
-                "organizationId": 507385,
-                "parentOrganizationId": null,
-                "unitName": "Wilmington Delaware",
-                "unitType": null
-            },
-            {
-                "normalizedUnitName": "Scranton Pennsylvania",
-                "organizationId": 512168,
-                "parentOrganizationId": null,
-                "unitName": "Scranton Pennsylvania",
-                "unitType": null
-            },
-            {
                 "normalizedUnitName": "Cherry Hill New Jersey",
                 "organizationId": 512370,
                 "parentOrganizationId": null,
                 "unitName": "Cherry Hill New Jersey",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Dover Delaware",
+                "organizationId": 1884182,
+                "parentOrganizationId": null,
+                "unitName": "Dover Delaware",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Philadelphia Pennsylvania",
+                "organizationId": 503347,
+                "parentOrganizationId": null,
+                "unitName": "Philadelphia Pennsylvania",
                 "unitType": null
             },
             {
@@ -8079,6 +8072,13 @@
                 "unitType": null
             },
             {
+                "normalizedUnitName": "Scranton Pennsylvania",
+                "organizationId": 512168,
+                "parentOrganizationId": null,
+                "unitName": "Scranton Pennsylvania",
+                "unitType": null
+            },
+            {
                 "normalizedUnitName": "Valley Forge Pennsylvania",
                 "organizationId": 613339,
                 "parentOrganizationId": null,
@@ -8086,10 +8086,10 @@
                 "unitType": null
             },
             {
-                "normalizedUnitName": "Dover Delaware",
-                "organizationId": 1884182,
+                "normalizedUnitName": "Wilmington Delaware",
+                "organizationId": 507385,
                 "parentOrganizationId": null,
-                "unitName": "Dover Delaware",
+                "unitName": "Wilmington Delaware",
                 "unitType": null
             }
         ],
@@ -8346,31 +8346,24 @@
         "areaId": null,
         "assignedEcclUnits": [
             {
-                "normalizedUnitName": "Philadelphia Pennsylvania",
-                "organizationId": 503347,
-                "parentOrganizationId": null,
-                "unitName": "Philadelphia Pennsylvania",
-                "unitType": null
-            },
-            {
-                "normalizedUnitName": "Wilmington Delaware",
-                "organizationId": 507385,
-                "parentOrganizationId": null,
-                "unitName": "Wilmington Delaware",
-                "unitType": null
-            },
-            {
-                "normalizedUnitName": "Scranton Pennsylvania",
-                "organizationId": 512168,
-                "parentOrganizationId": null,
-                "unitName": "Scranton Pennsylvania",
-                "unitType": null
-            },
-            {
                 "normalizedUnitName": "Cherry Hill New Jersey",
                 "organizationId": 512370,
                 "parentOrganizationId": null,
                 "unitName": "Cherry Hill New Jersey",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Dover Delaware",
+                "organizationId": 1884182,
+                "parentOrganizationId": null,
+                "unitName": "Dover Delaware",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Philadelphia Pennsylvania",
+                "organizationId": 503347,
+                "parentOrganizationId": null,
+                "unitName": "Philadelphia Pennsylvania",
                 "unitType": null
             },
             {
@@ -8381,6 +8374,13 @@
                 "unitType": null
             },
             {
+                "normalizedUnitName": "Scranton Pennsylvania",
+                "organizationId": 512168,
+                "parentOrganizationId": null,
+                "unitName": "Scranton Pennsylvania",
+                "unitType": null
+            },
+            {
                 "normalizedUnitName": "Valley Forge Pennsylvania",
                 "organizationId": 613339,
                 "parentOrganizationId": null,
@@ -8388,10 +8388,10 @@
                 "unitType": null
             },
             {
-                "normalizedUnitName": "Dover Delaware",
-                "organizationId": 1884182,
+                "normalizedUnitName": "Wilmington Delaware",
+                "organizationId": 507385,
                 "parentOrganizationId": null,
-                "unitName": "Dover Delaware",
+                "unitName": "Wilmington Delaware",
                 "unitType": null
             }
         ],
@@ -10400,17 +10400,17 @@
         "areaId": null,
         "assignedEcclUnits": [
             {
-                "normalizedUnitName": "Nazareth",
-                "organizationId": 100277,
-                "parentOrganizationId": null,
-                "unitName": "Nazareth",
-                "unitType": null
-            },
-            {
                 "normalizedUnitName": "Easton",
                 "organizationId": 1623370,
                 "parentOrganizationId": null,
                 "unitName": "Easton",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Nazareth",
+                "organizationId": 100277,
+                "parentOrganizationId": null,
+                "unitName": "Nazareth",
                 "unitType": null
             }
         ],
@@ -11082,17 +11082,17 @@
         "areaId": null,
         "assignedEcclUnits": [
             {
-                "normalizedUnitName": "Philadelphia 1st",
-                "organizationId": 144339,
-                "parentOrganizationId": null,
-                "unitName": "Philadelphia 1st",
-                "unitType": null
-            },
-            {
                 "normalizedUnitName": "South Philadelphia",
                 "organizationId": 210498,
                 "parentOrganizationId": null,
                 "unitName": "South Philadelphia",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Philadelphia 1st",
+                "organizationId": 144339,
+                "parentOrganizationId": null,
+                "unitName": "Philadelphia 1st",
                 "unitType": null
             },
             {
@@ -13235,10 +13235,10 @@
                 "unitType": null
             },
             {
-                "normalizedUnitName": "Harrington",
-                "organizationId": 144398,
+                "normalizedUnitName": "Smyrna",
+                "organizationId": 193690,
                 "parentOrganizationId": null,
-                "unitName": "Harrington",
+                "unitName": "Smyrna",
                 "unitType": null
             },
             {
@@ -13249,10 +13249,10 @@
                 "unitType": null
             },
             {
-                "normalizedUnitName": "Smyrna",
-                "organizationId": 193690,
+                "normalizedUnitName": "Harrington",
+                "organizationId": 144398,
                 "parentOrganizationId": null,
-                "unitName": "Smyrna",
+                "unitName": "Harrington",
                 "unitType": null
             }
         ],
@@ -13639,31 +13639,24 @@
         "areaId": null,
         "assignedEcclUnits": [
             {
-                "normalizedUnitName": "Philadelphia Pennsylvania",
-                "organizationId": 503347,
-                "parentOrganizationId": null,
-                "unitName": "Philadelphia Pennsylvania",
-                "unitType": null
-            },
-            {
-                "normalizedUnitName": "Wilmington Delaware",
-                "organizationId": 507385,
-                "parentOrganizationId": null,
-                "unitName": "Wilmington Delaware",
-                "unitType": null
-            },
-            {
-                "normalizedUnitName": "Scranton Pennsylvania",
-                "organizationId": 512168,
-                "parentOrganizationId": null,
-                "unitName": "Scranton Pennsylvania",
-                "unitType": null
-            },
-            {
                 "normalizedUnitName": "Cherry Hill New Jersey",
                 "organizationId": 512370,
                 "parentOrganizationId": null,
                 "unitName": "Cherry Hill New Jersey",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Dover Delaware",
+                "organizationId": 1884182,
+                "parentOrganizationId": null,
+                "unitName": "Dover Delaware",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Philadelphia Pennsylvania",
+                "organizationId": 503347,
+                "parentOrganizationId": null,
+                "unitName": "Philadelphia Pennsylvania",
                 "unitType": null
             },
             {
@@ -13674,6 +13667,13 @@
                 "unitType": null
             },
             {
+                "normalizedUnitName": "Scranton Pennsylvania",
+                "organizationId": 512168,
+                "parentOrganizationId": null,
+                "unitName": "Scranton Pennsylvania",
+                "unitType": null
+            },
+            {
                 "normalizedUnitName": "Valley Forge Pennsylvania",
                 "organizationId": 613339,
                 "parentOrganizationId": null,
@@ -13681,10 +13681,10 @@
                 "unitType": null
             },
             {
-                "normalizedUnitName": "Dover Delaware",
-                "organizationId": 1884182,
+                "normalizedUnitName": "Wilmington Delaware",
+                "organizationId": 507385,
                 "parentOrganizationId": null,
-                "unitName": "Dover Delaware",
+                "unitName": "Wilmington Delaware",
                 "unitType": null
             }
         ],
@@ -13835,31 +13835,24 @@
         "areaId": null,
         "assignedEcclUnits": [
             {
-                "normalizedUnitName": "Philadelphia Pennsylvania",
-                "organizationId": 503347,
-                "parentOrganizationId": null,
-                "unitName": "Philadelphia Pennsylvania",
-                "unitType": null
-            },
-            {
-                "normalizedUnitName": "Wilmington Delaware",
-                "organizationId": 507385,
-                "parentOrganizationId": null,
-                "unitName": "Wilmington Delaware",
-                "unitType": null
-            },
-            {
-                "normalizedUnitName": "Scranton Pennsylvania",
-                "organizationId": 512168,
-                "parentOrganizationId": null,
-                "unitName": "Scranton Pennsylvania",
-                "unitType": null
-            },
-            {
                 "normalizedUnitName": "Cherry Hill New Jersey",
                 "organizationId": 512370,
                 "parentOrganizationId": null,
                 "unitName": "Cherry Hill New Jersey",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Dover Delaware",
+                "organizationId": 1884182,
+                "parentOrganizationId": null,
+                "unitName": "Dover Delaware",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Philadelphia Pennsylvania",
+                "organizationId": 503347,
+                "parentOrganizationId": null,
+                "unitName": "Philadelphia Pennsylvania",
                 "unitType": null
             },
             {
@@ -13870,6 +13863,13 @@
                 "unitType": null
             },
             {
+                "normalizedUnitName": "Scranton Pennsylvania",
+                "organizationId": 512168,
+                "parentOrganizationId": null,
+                "unitName": "Scranton Pennsylvania",
+                "unitType": null
+            },
+            {
                 "normalizedUnitName": "Valley Forge Pennsylvania",
                 "organizationId": 613339,
                 "parentOrganizationId": null,
@@ -13877,10 +13877,10 @@
                 "unitType": null
             },
             {
-                "normalizedUnitName": "Dover Delaware",
-                "organizationId": 1884182,
+                "normalizedUnitName": "Wilmington Delaware",
+                "organizationId": 507385,
                 "parentOrganizationId": null,
-                "unitName": "Dover Delaware",
+                "unitName": "Wilmington Delaware",
                 "unitType": null
             }
         ],
@@ -14031,17 +14031,17 @@
         "areaId": null,
         "assignedEcclUnits": [
             {
-                "normalizedUnitName": "Philadelphia 1st",
-                "organizationId": 144339,
-                "parentOrganizationId": null,
-                "unitName": "Philadelphia 1st",
-                "unitType": null
-            },
-            {
                 "normalizedUnitName": "South Philadelphia",
                 "organizationId": 210498,
                 "parentOrganizationId": null,
                 "unitName": "South Philadelphia",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Philadelphia 1st",
+                "organizationId": 144339,
+                "parentOrganizationId": null,
+                "unitName": "Philadelphia 1st",
                 "unitType": null
             },
             {
@@ -17756,10 +17756,10 @@
                 "unitType": null
             },
             {
-                "normalizedUnitName": "Harrington",
-                "organizationId": 144398,
+                "normalizedUnitName": "Smyrna",
+                "organizationId": 193690,
                 "parentOrganizationId": null,
-                "unitName": "Harrington",
+                "unitName": "Smyrna",
                 "unitType": null
             },
             {
@@ -17770,10 +17770,10 @@
                 "unitType": null
             },
             {
-                "normalizedUnitName": "Smyrna",
-                "organizationId": 193690,
+                "normalizedUnitName": "Harrington",
+                "organizationId": 144398,
                 "parentOrganizationId": null,
-                "unitName": "Smyrna",
+                "unitName": "Harrington",
                 "unitType": null
             }
         ],
@@ -19168,13 +19168,6 @@
         "areaId": null,
         "assignedEcclUnits": [
             {
-                "normalizedUnitName": "Whitehall",
-                "organizationId": 48593,
-                "parentOrganizationId": null,
-                "unitName": "Whitehall",
-                "unitType": null
-            },
-            {
                 "normalizedUnitName": "Reading 1st",
                 "organizationId": 48852,
                 "parentOrganizationId": null,
@@ -19182,17 +19175,24 @@
                 "unitType": null
             },
             {
-                "normalizedUnitName": "Pottstown",
-                "organizationId": 95400,
-                "parentOrganizationId": null,
-                "unitName": "Pottstown",
-                "unitType": null
-            },
-            {
                 "normalizedUnitName": "Exeter",
                 "organizationId": 2026791,
                 "parentOrganizationId": null,
                 "unitName": "Exeter",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Whitehall",
+                "organizationId": 48593,
+                "parentOrganizationId": null,
+                "unitName": "Whitehall",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Pottstown",
+                "organizationId": 95400,
+                "parentOrganizationId": null,
+                "unitName": "Pottstown",
                 "unitType": null
             }
         ],
@@ -19997,17 +19997,17 @@
         "areaId": null,
         "assignedEcclUnits": [
             {
-                "normalizedUnitName": "West Chester",
-                "organizationId": 122351,
-                "parentOrganizationId": null,
-                "unitName": "West Chester",
-                "unitType": null
-            },
-            {
                 "normalizedUnitName": "Downingtown",
                 "organizationId": 199540,
                 "parentOrganizationId": null,
                 "unitName": "Downingtown",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "West Chester",
+                "organizationId": 122351,
+                "parentOrganizationId": null,
+                "unitName": "West Chester",
                 "unitType": null
             }
         ],
@@ -20649,17 +20649,17 @@
         "areaId": null,
         "assignedEcclUnits": [
             {
-                "normalizedUnitName": "West Chester",
-                "organizationId": 122351,
-                "parentOrganizationId": null,
-                "unitName": "West Chester",
-                "unitType": null
-            },
-            {
                 "normalizedUnitName": "Downingtown",
                 "organizationId": 199540,
                 "parentOrganizationId": null,
                 "unitName": "Downingtown",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "West Chester",
+                "organizationId": 122351,
+                "parentOrganizationId": null,
+                "unitName": "West Chester",
                 "unitType": null
             }
         ],
@@ -21790,31 +21790,17 @@
         "areaId": null,
         "assignedEcclUnits": [
             {
+                "normalizedUnitName": "Dover Delaware",
+                "organizationId": 1884182,
+                "parentOrganizationId": null,
+                "unitName": "Dover Delaware",
+                "unitType": null
+            },
+            {
                 "normalizedUnitName": "Philadelphia Pennsylvania",
                 "organizationId": 503347,
                 "parentOrganizationId": null,
                 "unitName": "Philadelphia Pennsylvania",
-                "unitType": null
-            },
-            {
-                "normalizedUnitName": "Wilmington Delaware",
-                "organizationId": 507385,
-                "parentOrganizationId": null,
-                "unitName": "Wilmington Delaware",
-                "unitType": null
-            },
-            {
-                "normalizedUnitName": "Scranton Pennsylvania",
-                "organizationId": 512168,
-                "parentOrganizationId": null,
-                "unitName": "Scranton Pennsylvania",
-                "unitType": null
-            },
-            {
-                "normalizedUnitName": "Cherry Hill New Jersey",
-                "organizationId": 512370,
-                "parentOrganizationId": null,
-                "unitName": "Cherry Hill New Jersey",
                 "unitType": null
             },
             {
@@ -21825,6 +21811,13 @@
                 "unitType": null
             },
             {
+                "normalizedUnitName": "Scranton Pennsylvania",
+                "organizationId": 512168,
+                "parentOrganizationId": null,
+                "unitName": "Scranton Pennsylvania",
+                "unitType": null
+            },
+            {
                 "normalizedUnitName": "Valley Forge Pennsylvania",
                 "organizationId": 613339,
                 "parentOrganizationId": null,
@@ -21832,10 +21825,17 @@
                 "unitType": null
             },
             {
-                "normalizedUnitName": "Dover Delaware",
-                "organizationId": 1884182,
+                "normalizedUnitName": "Wilmington Delaware",
+                "organizationId": 507385,
                 "parentOrganizationId": null,
-                "unitName": "Dover Delaware",
+                "unitName": "Wilmington Delaware",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Cherry Hill New Jersey",
+                "organizationId": 512370,
+                "parentOrganizationId": null,
+                "unitName": "Cherry Hill New Jersey",
                 "unitType": null
             }
         ],
@@ -21986,31 +21986,17 @@
         "areaId": null,
         "assignedEcclUnits": [
             {
+                "normalizedUnitName": "Dover Delaware",
+                "organizationId": 1884182,
+                "parentOrganizationId": null,
+                "unitName": "Dover Delaware",
+                "unitType": null
+            },
+            {
                 "normalizedUnitName": "Philadelphia Pennsylvania",
                 "organizationId": 503347,
                 "parentOrganizationId": null,
                 "unitName": "Philadelphia Pennsylvania",
-                "unitType": null
-            },
-            {
-                "normalizedUnitName": "Wilmington Delaware",
-                "organizationId": 507385,
-                "parentOrganizationId": null,
-                "unitName": "Wilmington Delaware",
-                "unitType": null
-            },
-            {
-                "normalizedUnitName": "Scranton Pennsylvania",
-                "organizationId": 512168,
-                "parentOrganizationId": null,
-                "unitName": "Scranton Pennsylvania",
-                "unitType": null
-            },
-            {
-                "normalizedUnitName": "Cherry Hill New Jersey",
-                "organizationId": 512370,
-                "parentOrganizationId": null,
-                "unitName": "Cherry Hill New Jersey",
                 "unitType": null
             },
             {
@@ -22021,6 +22007,13 @@
                 "unitType": null
             },
             {
+                "normalizedUnitName": "Scranton Pennsylvania",
+                "organizationId": 512168,
+                "parentOrganizationId": null,
+                "unitName": "Scranton Pennsylvania",
+                "unitType": null
+            },
+            {
                 "normalizedUnitName": "Valley Forge Pennsylvania",
                 "organizationId": 613339,
                 "parentOrganizationId": null,
@@ -22028,10 +22021,17 @@
                 "unitType": null
             },
             {
-                "normalizedUnitName": "Dover Delaware",
-                "organizationId": 1884182,
+                "normalizedUnitName": "Wilmington Delaware",
+                "organizationId": 507385,
                 "parentOrganizationId": null,
-                "unitName": "Dover Delaware",
+                "unitName": "Wilmington Delaware",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Cherry Hill New Jersey",
+                "organizationId": 512370,
+                "parentOrganizationId": null,
+                "unitName": "Cherry Hill New Jersey",
                 "unitType": null
             }
         ],
@@ -23029,17 +23029,17 @@
         "areaId": null,
         "assignedEcclUnits": [
             {
-                "normalizedUnitName": "Reading 1st",
-                "organizationId": 48852,
-                "parentOrganizationId": null,
-                "unitName": "Reading 1st",
-                "unitType": null
-            },
-            {
                 "normalizedUnitName": "Reading 3rd (Spanish)",
                 "organizationId": 557838,
                 "parentOrganizationId": null,
                 "unitName": "Reading 3rd (Spanish)",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Reading 1st",
+                "organizationId": 48852,
+                "parentOrganizationId": null,
+                "unitName": "Reading 1st",
                 "unitType": null
             },
             {
@@ -27119,24 +27119,10 @@
         "areaId": null,
         "assignedEcclUnits": [
             {
-                "normalizedUnitName": "Pennypack",
-                "organizationId": 104574,
-                "parentOrganizationId": null,
-                "unitName": "Pennypack",
-                "unitType": null
-            },
-            {
                 "normalizedUnitName": "Philadelphia 1st",
                 "organizationId": 144339,
                 "parentOrganizationId": null,
                 "unitName": "Philadelphia 1st",
-                "unitType": null
-            },
-            {
-                "normalizedUnitName": "Logan",
-                "organizationId": 144347,
-                "parentOrganizationId": null,
-                "unitName": "Logan",
                 "unitType": null
             },
             {
@@ -27151,6 +27137,20 @@
                 "organizationId": 2151790,
                 "parentOrganizationId": null,
                 "unitName": "Mayfair (Spanish)",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Pennypack",
+                "organizationId": 104574,
+                "parentOrganizationId": null,
+                "unitName": "Pennypack",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Logan",
+                "organizationId": 144347,
+                "parentOrganizationId": null,
+                "unitName": "Logan",
                 "unitType": null
             }
         ],
@@ -28040,17 +28040,17 @@
         "areaId": null,
         "assignedEcclUnits": [
             {
-                "normalizedUnitName": "Nazareth",
-                "organizationId": 100277,
-                "parentOrganizationId": null,
-                "unitName": "Nazareth",
-                "unitType": null
-            },
-            {
                 "normalizedUnitName": "Easton",
                 "organizationId": 1623370,
                 "parentOrganizationId": null,
                 "unitName": "Easton",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Nazareth",
+                "organizationId": 100277,
+                "parentOrganizationId": null,
+                "unitName": "Nazareth",
                 "unitType": null
             }
         ],
@@ -28728,17 +28728,17 @@
         "areaId": null,
         "assignedEcclUnits": [
             {
-                "normalizedUnitName": "Scranton 1st",
-                "organizationId": 47430,
-                "parentOrganizationId": null,
-                "unitName": "Scranton 1st",
-                "unitType": null
-            },
-            {
                 "normalizedUnitName": "Clarks Summit",
                 "organizationId": 2039540,
                 "parentOrganizationId": null,
                 "unitName": "Clarks Summit",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Scranton 1st",
+                "organizationId": 47430,
+                "parentOrganizationId": null,
+                "unitName": "Scranton 1st",
                 "unitType": null
             }
         ],
@@ -28877,13 +28877,6 @@
         "areaId": null,
         "assignedEcclUnits": [
             {
-                "normalizedUnitName": "Whitehall",
-                "organizationId": 48593,
-                "parentOrganizationId": null,
-                "unitName": "Whitehall",
-                "unitType": null
-            },
-            {
                 "normalizedUnitName": "Reading 1st",
                 "organizationId": 48852,
                 "parentOrganizationId": null,
@@ -28891,17 +28884,24 @@
                 "unitType": null
             },
             {
-                "normalizedUnitName": "Pottstown",
-                "organizationId": 95400,
-                "parentOrganizationId": null,
-                "unitName": "Pottstown",
-                "unitType": null
-            },
-            {
                 "normalizedUnitName": "Exeter",
                 "organizationId": 2026791,
                 "parentOrganizationId": null,
                 "unitName": "Exeter",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Whitehall",
+                "organizationId": 48593,
+                "parentOrganizationId": null,
+                "unitName": "Whitehall",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Pottstown",
+                "organizationId": 95400,
+                "parentOrganizationId": null,
+                "unitName": "Pottstown",
                 "unitType": null
             }
         ],
@@ -29973,17 +29973,17 @@
         "areaId": null,
         "assignedEcclUnits": [
             {
-                "normalizedUnitName": "Scranton 1st",
-                "organizationId": 47430,
-                "parentOrganizationId": null,
-                "unitName": "Scranton 1st",
-                "unitType": null
-            },
-            {
                 "normalizedUnitName": "Clarks Summit",
                 "organizationId": 2039540,
                 "parentOrganizationId": null,
                 "unitName": "Clarks Summit",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Scranton 1st",
+                "organizationId": 47430,
+                "parentOrganizationId": null,
+                "unitName": "Scranton 1st",
                 "unitType": null
             }
         ],
@@ -30382,17 +30382,17 @@
         "areaId": null,
         "assignedEcclUnits": [
             {
-                "normalizedUnitName": "West Chester",
-                "organizationId": 122351,
-                "parentOrganizationId": null,
-                "unitName": "West Chester",
-                "unitType": null
-            },
-            {
                 "normalizedUnitName": "Downingtown",
                 "organizationId": 199540,
                 "parentOrganizationId": null,
                 "unitName": "Downingtown",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "West Chester",
+                "organizationId": 122351,
+                "parentOrganizationId": null,
+                "unitName": "West Chester",
                 "unitType": null
             }
         ],
@@ -32090,24 +32090,10 @@
         "areaId": null,
         "assignedEcclUnits": [
             {
-                "normalizedUnitName": "Pennypack",
-                "organizationId": 104574,
-                "parentOrganizationId": null,
-                "unitName": "Pennypack",
-                "unitType": null
-            },
-            {
                 "normalizedUnitName": "Philadelphia 1st",
                 "organizationId": 144339,
                 "parentOrganizationId": null,
                 "unitName": "Philadelphia 1st",
-                "unitType": null
-            },
-            {
-                "normalizedUnitName": "Logan",
-                "organizationId": 144347,
-                "parentOrganizationId": null,
-                "unitName": "Logan",
                 "unitType": null
             },
             {
@@ -32122,6 +32108,20 @@
                 "organizationId": 2151790,
                 "parentOrganizationId": null,
                 "unitName": "Mayfair (Spanish)",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Pennypack",
+                "organizationId": 104574,
+                "parentOrganizationId": null,
+                "unitName": "Pennypack",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Logan",
+                "organizationId": 144347,
+                "parentOrganizationId": null,
+                "unitName": "Logan",
                 "unitType": null
             }
         ],
@@ -34472,17 +34472,17 @@
         "areaId": null,
         "assignedEcclUnits": [
             {
-                "normalizedUnitName": "Philadelphia 1st",
-                "organizationId": 144339,
-                "parentOrganizationId": null,
-                "unitName": "Philadelphia 1st",
-                "unitType": null
-            },
-            {
                 "normalizedUnitName": "Philadelphia 4th",
                 "organizationId": 482919,
                 "parentOrganizationId": null,
                 "unitName": "Philadelphia 4th",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Philadelphia 1st",
+                "organizationId": 144339,
+                "parentOrganizationId": null,
+                "unitName": "Philadelphia 1st",
                 "unitType": null
             }
         ],
@@ -34633,17 +34633,17 @@
         "areaId": null,
         "assignedEcclUnits": [
             {
-                "normalizedUnitName": "Philadelphia 1st",
-                "organizationId": 144339,
-                "parentOrganizationId": null,
-                "unitName": "Philadelphia 1st",
-                "unitType": null
-            },
-            {
                 "normalizedUnitName": "Philadelphia 4th",
                 "organizationId": 482919,
                 "parentOrganizationId": null,
                 "unitName": "Philadelphia 4th",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Philadelphia 1st",
+                "organizationId": 144339,
+                "parentOrganizationId": null,
+                "unitName": "Philadelphia 1st",
                 "unitType": null
             }
         ],
@@ -40050,17 +40050,17 @@
         "areaId": null,
         "assignedEcclUnits": [
             {
-                "normalizedUnitName": "West Chester",
-                "organizationId": 122351,
-                "parentOrganizationId": null,
-                "unitName": "West Chester",
-                "unitType": null
-            },
-            {
                 "normalizedUnitName": "Downingtown",
                 "organizationId": 199540,
                 "parentOrganizationId": null,
                 "unitName": "Downingtown",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "West Chester",
+                "organizationId": 122351,
+                "parentOrganizationId": null,
+                "unitName": "West Chester",
                 "unitType": null
             }
         ],
@@ -40483,6 +40483,20 @@
         "areaId": null,
         "assignedEcclUnits": [
             {
+                "normalizedUnitName": "Scranton 2nd (Spanish)",
+                "organizationId": 2083469,
+                "parentOrganizationId": null,
+                "unitName": "Scranton 2nd (Spanish)",
+                "unitType": null
+            },
+            {
+                "normalizedUnitName": "Susquehanna",
+                "organizationId": 372617,
+                "parentOrganizationId": null,
+                "unitName": "Susquehanna",
+                "unitType": null
+            },
+            {
                 "normalizedUnitName": "Scranton 1st",
                 "organizationId": 47430,
                 "parentOrganizationId": null,
@@ -40497,24 +40511,10 @@
                 "unitType": null
             },
             {
-                "normalizedUnitName": "Susquehanna",
-                "organizationId": 372617,
-                "parentOrganizationId": null,
-                "unitName": "Susquehanna",
-                "unitType": null
-            },
-            {
                 "normalizedUnitName": "Clarks Summit",
                 "organizationId": 2039540,
                 "parentOrganizationId": null,
                 "unitName": "Clarks Summit",
-                "unitType": null
-            },
-            {
-                "normalizedUnitName": "Scranton 2nd (Spanish)",
-                "organizationId": 2083469,
-                "parentOrganizationId": null,
-                "unitName": "Scranton 2nd (Spanish)",
                 "unitType": null
             }
         ],
