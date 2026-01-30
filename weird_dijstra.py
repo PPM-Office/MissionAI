@@ -2,6 +2,7 @@ import heapq
 import requests
 from dataclasses import dataclass
 from geopy.geocoders import Nominatim
+import re
 
 class Location:
     def __init__(self, address, can_switch=True, can_be_alone=False):
@@ -10,11 +11,44 @@ class Location:
         self.can_be_alone = can_be_alone
         self.geolocator = Nominatim(user_agent="osrm_example")
 
+    def _fallback_addresses(self):
+        parts = self.address.split(",")
+        fallbacks = []
+
+        if len(parts) >= 3:
+            fallbacks.append(self.address)                  # full
+            fallbacks.append(", ".join(parts[1:]))          # city, state
+            fallbacks.append(", ".join(parts[2:]))             # state
+        else:
+            fallbacks.append(self.address)
+
+        # hard-coded last resorts
+        fallbacks.append("Broomall, PA, USA")
+
+        return list(dict.fromkeys(fallbacks))  # remove dups
+
+
     def coords(self):
-        loc = self.geolocator.geocode(self.address)
+        if self.address in GEOCODE_CACHE:
+            return GEOCODE_CACHE[self.address]
+        
+        loc = self.geolocator.geocode(self.address, timeout=10, exactly_one=True)
+        
         if not loc:
-            raise ValueError(f"Could not geocode {self.address}")
-        return loc.longitude, loc.latitude
+            for addr in self._fallback_addresses():
+                loc = self.geolocator.geocode(addr, timeout=10, exactly_one=True)
+                if loc:
+                    coords = (loc.longitude, loc.latitude)
+                    GEOCODE_CACHE[self.address] = coords
+                    print(f"📍 Approximated '{self.address}' → '{addr}'")
+                    return coords
+        else:
+            coords = (loc.longitude, loc.latitude)
+            GEOCODE_CACHE[self.address] = coords
+            return coords
+
+        print(f"❌ Could not geocode anything for {self.address}")
+        return None
     
 class Missionary:
     def __init__(self, email, curArea, destination):
@@ -29,6 +63,7 @@ class Vehicle:
         self.curArea = curArea
         self.destination = destination
 
+GEOCODE_CACHE = {}
 DIST_CACHE = {}
 
 def vehicle_distance(locA, locB):
@@ -70,8 +105,37 @@ def valid_grouping(state, vehicles, locations):
 
 def neighbors(state, vehicles, missionaries, locations):
     out = []
-
     for vid, vpos in enumerate(state.vehicle_pos):
+        for mid, mpos in enumerate(state.missionary_pos):
+
+            # missionary at same location as vehicle
+            if mpos == vpos and len(state.vehicle_loads[vid]) < vehicles[vid].capacity:
+
+                loads = list(state.vehicle_loads)
+                new_load = set(loads[vid])
+                new_load.add(mid)
+
+                # 🚫 no solo missionary vehicle
+                if len(new_load) == 1:
+                    continue
+
+                loads[vid] = frozenset(new_load)
+
+                new_mpos = list(state.missionary_pos)
+                new_mpos[mid] = f"IN:{vid}"
+
+                new_state = State(
+                    vehicle_pos=state.vehicle_pos,
+                    vehicle_loads=tuple(loads),
+                    missionary_pos=tuple(new_mpos)
+                )
+
+                if valid_grouping(new_state, vehicles, locations):
+                    out.append((new_state, 0))
+                    
+    for vid, vpos in enumerate(state.vehicle_pos):
+
+        # --- Boarding ---
 
         # 🚫 Vehicle cannot move unless it has >= 2 missionaries
         if len(state.vehicle_loads[vid]) < 2:
@@ -182,7 +246,7 @@ def solve(vehicles, missionaries, locations):
     return None
 
 def StartThatJawn(mishList, veList, locList):
-
+    print("🚀 Starting the missionary routing")
     # --- Solve ---
     result = solve(mishList, veList, locList)
 
